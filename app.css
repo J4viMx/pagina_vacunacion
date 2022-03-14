@@ -1,0 +1,160 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+ }
+*, *:before, *:after {
+    box-sizing: inherit;
+ }
+
+ body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+ }
+
+h1,h2,h3{
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+
+h1{
+    font-size: 8rem;
+    font-weight: 800;
+    color: #1F3E72;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.vacunacion-principal{
+    min-height: 100vh;
+}
+
+
+.contenedor-imagen-enfermera{
+    background-image: url(src/img/enfermera1.jpg);
+    background-repeat: no-repeat;
+    background-size: 180%;
+    background-position: center center;
+    height: 100vh;
+
+}
+
+
+.texto-vacunacion-principal{
+    width: 60%;
+}
+
+.titulo-vacunacion-principal{
+    margin: 0 auto;
+}
+
+.parrafo-vacunacion-principal{
+    font-weight: 500;
+    font-size: 2rem;
+    color: #6D7B93;
+    margin: 0 auto;
+    padding-right: 15rem;
+    margin-bottom: 3rem;
+    
+}
+
+.iconos-ventajas{
+    background-color: #FFF9E3;
+}
+.ventajas-vacunacion-principal-parrafo{
+    color: #294370;
+    font-weight: 600;
+}
+
+.iconos-ventajas-azules{
+    background-color: #f0f4ff;
+}
+
+.ventajas-azules-parrafo{
+    color: #1f3e72;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-top: 10rem;
+}
+
+.cita-vacunacion-principal{
+    width: 60%;
+    height: 12rem;
+    background-color: #fafcfeea;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    margin-top: -10%;
+    margin-left: 11%;
+    box-shadow: 0 20px 20px 0 #dde8f9;
+}
+
+
+.logo-vacuna{
+    width: 20rem;
+}
+
+.logo-pfizer{
+    margin-top: -2rem;
+}
+
+.vacunacion-deberia-titulo{
+    color: #1f3e72;
+    margin-top: 10rem;
+}
+
+.vacunacion-deberia-parrafo{
+    color: #6d7b93;
+    width: 40%;
+    margin-bottom: 4rem;
+}
+
+
+.contenedor-vacuna-deberia{
+    border: 2px solid #fafaff;
+    padding: 4rem 3rem;
+    width: 24%;
+    margin: 0 0 0 .5rem;
+}
+
+.contenedor-logo-vacuna-deberia{
+    background-color: #f1f5ff;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor-vacuna-deberia h3{
+    margin: 0 0 2rem 0;
+    color: #1f3e72;
+}
+
+.contenedor-vacuna-deberia p{
+    color: #6d7b93;
+}
+
+.segunda-vacuna-deberia{
+    box-shadow: 0 20px 20px 0 #dde8f9;
+}
+
+
+.contenedor-imagen-enfermera-2{
+    background-image: url(src/img/enfermera2.jpg);
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: center center;
+    height: 100vh;
+
+}
