@@ -43,6 +43,8 @@ h3{
 }
 
 
+
+
 .contenedor-imagen-enfermera{
     background-image: url(src/img/enfermera1.jpg);
     background-repeat: no-repeat;
@@ -98,7 +100,7 @@ h3{
     border-radius: 1rem;
     margin-top: -10%;
     margin-left: 11%;
-    box-shadow: 0 20px 20px 0 #dde8f9;
+    box-shadow: 0 20px 20px 0 #d2defc;
 }
 
 
@@ -273,4 +275,51 @@ li{
 
 .color-azul{
     color: #1f3e72;
+}
+
+
+.navbar-expand-md::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 11rem;
+    background-color: #e9f1fc;
+    z-index: -1;
+}
+
+
+.triangulo-1::after{   
+    content: "";
+    position: absolute;
+    top: 124rem;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-right: 100px solid #e9f1fc;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent; 
+}
+.triangulo-2::after{   
+    content: "";
+    position: absolute;
+    top: 210rem;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 100px solid #e9f1fc;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent; 
+}
+.triangulo-3::after{   
+    content: "";
+    position: absolute;
+    top: 300rem;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-right: 100px solid #e9f1fc;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent; 
 }
