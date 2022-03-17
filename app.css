@@ -10,6 +10,7 @@ html {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
+    overflow-x: hidden;
  }
 
 h1,h2,h3{
@@ -157,4 +158,119 @@ h3{
     background-position: center center;
     height: 100vh;
 
+}
+
+.contenedor-flecha{
+    background-color: #f1f5ff;
+    display: inline-block;
+    padding: 0 .5rem;
+    border-radius: .5rem;
+    
+}
+
+
+.titulo-preparacion{
+    color: #1f3e72;
+    font-weight: 700;
+    font-size: 4rem;
+    padding-top: 5rem;
+}
+
+.parrafo-preparacion{
+    color: #6d7b93;
+
+}
+
+.contenedor-preparacion-explicacion{
+    width: 60%;
+}
+
+.parrafo-prepararte{
+    color: #8f9aad;
+    font-size: 1.5rem;
+}
+
+.contenedor-consejos-preparacion p{
+    color: #1f3e72;
+    font-weight: 600;
+}
+
+.flecha-diferente svg{
+    transform: rotate(180deg);
+}
+
+
+.contenedor-imagen-enfermera-3{
+    background-image: url(src/img/enfermero3.jpg);
+    background-repeat: no-repeat;
+    background-size: 98%;
+    background-position: center center;
+    height: 100vh;
+
+}
+
+
+.logo-contacto{
+    background-color: #f1f5ff;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+
+
+.boton-contacto{
+    text-decoration: none;
+    background-color: #f1f5ff;
+    color: #3858d6;
+    padding: 1.4rem 0;
+    display: block;
+    font-weight: 700;
+    font-size: 1.8rem;
+    border-radius: .5rem;
+}
+
+
+.boton-contacto:hover, .active-botton{
+    background-color: #2b4bc9;
+    color: #fff;
+}
+
+.titulo-card-contacto{
+    color: #1f3e72;
+    font-weight: 500;
+}
+
+
+.numero-card-contacto{
+    color: #6d7b93;
+    font-size: 1.5rem;
+}
+
+.contenedor-card-contacto{
+    border: 1px solid #fafaff;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+
+.logo-contacto svg{
+    transform: scale(1.8);
+}
+
+footer{
+    color: #6D7B93;
+    margin-top: 10rem;
+    background-color: #eef3ff;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+
+
+.color-azul{
+    color: #1f3e72;
 }
